@@ -1,0 +1,6 @@
+student_id,major,GPA,is_cs_major,credits_taken
+1,Art History,3,No,10.5
+2,Computer Science,3.3,Yes,13
+3,Math,4.0,No,14
+4,Computer Science,2.5,Yes,9.5
+5,English,2,No,17

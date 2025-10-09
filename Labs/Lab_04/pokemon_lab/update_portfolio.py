@@ -106,12 +106,10 @@ def update_portfolio(inventory_dir, lookup_dir, output_file):
     merged_df.to_csv(output_file, index=False)
 
 def main():
-    """Run ETL with full inventory and lookup data."""
     print("--- Running Full Pipeline ---")
     update_portfolio("./card_inventory/", "./card_set_lookup/", "card_portfolio.csv")
 
 def test():
-    """Run ETL with test directories."""
     print("--- Running Test Pipeline (Built-in Test Modes) ---")
     update_portfolio("./card_inventory_test/", "./card_set_lookup_test/", "test_card_portfolio.csv")
 
